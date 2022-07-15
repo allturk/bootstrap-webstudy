@@ -16,11 +16,10 @@ h1 {
 }
 
 h3 {
-    font-family: "Montserrat";
-    position: relative;
-    font-size: 1.5rem;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.2rem;
     font-weight: bold;
-    text-align: center;
+
 }
 
 .container-fluid {
@@ -29,7 +28,7 @@ h3 {
 
 p {
     color: #8f8f8f;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 
@@ -60,27 +59,37 @@ p {
 }
 
 
-/*Titlet Image*/
+/*Title Image*/
 
 .title-image {
     transform: rotate(25deg);
     width: 60%;
 }
 
-/*Hover icon color*/
+/*Features*/
 .icon {
+    margin-bottom: 1rem;
     color: #ef8172;
-    margin-bottom: 20px;
-    scale: 200%;
 
 }
-
-
-.icon:hover {
+.icon:hover{
     color: #ff4c68;
 }
+/*.fa-3x{         !*overwrite fontawesome class *!*/
+/*    color:#ef8172 ;*/
+/*}*/
+/*.fa-3x:hover {*/
+/*    color: #ff4c68;*/
+/*}*/
 
-.space{
-    margin: 50px 0;
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+    /*margin:0 0 50px 0;*/
+
+
 }
-
+#features{
+    padding:7% 15%;
+}
