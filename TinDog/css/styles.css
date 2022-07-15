@@ -15,10 +15,22 @@ h1 {
     font-weight: 900;
 }
 
+h3 {
+    font-family: "Montserrat";
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-content: center;
+    box-sizing: initial;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
 
+p {
+    color: #8f8f8f;
+}
 
 
 /* Navigation Bar */
@@ -43,7 +55,7 @@ h1 {
 
 /*Download Buttons*/
 
-.download-button{
+.download-button {
     margin: 5% 3% 5% 0;
 }
 
@@ -53,4 +65,29 @@ h1 {
 .title-image {
     transform: rotate(25deg);
     width: 60%;
+}
+
+/*Hover icon color*/
+.icon {
+    color: #ef8172;
+    padding: 0 4em;
+    /*margin-left: 75px;*/
+    margin: 30px 0;
+    scale: 250%;
+
+}
+
+.icon2 {
+    color: #ef8172;
+
+    /*margin-left: 75px;*/
+    margin: 30px 0 30px 100px;
+    scale: 250%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+.icon2:hover {
+    color: #ff4c68;
 }
