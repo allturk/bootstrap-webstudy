@@ -126,3 +126,20 @@ p {
   width: 15%;
   margin:20px 20px 50px;
 }
+
+/*Pricing Section*/
+.pricing-header{
+    padding: 5% 0;
+}
+#pricing{
+    margin:10% 5%;
+
+
+}
+.mybtn{
+    position: relative;
+    top: auto;
+    margin-top: 40px;
+    /*left:5px;*/
+
+}
