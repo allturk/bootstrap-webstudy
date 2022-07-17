@@ -17,7 +17,7 @@ h1 {
 h2{
     font-family: "Montserrat",sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
@@ -128,18 +128,19 @@ p {
 }
 
 /*Pricing Section*/
-.pricing-header{
-    padding: 5% 0;
+.pricing-column{
+    padding: 3% 2%;
 }
 #pricing{
-    margin:10% 5%;
 
-
+    /*padding: 0 10%;*/
+    padding: 100px;
+    text-align: center;
 }
+
 .mybtn{
     position: relative;
     top: auto;
     margin-top: 40px;
-    /*left:5px;*/
 
 }
