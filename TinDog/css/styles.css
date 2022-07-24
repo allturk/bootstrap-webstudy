@@ -5,6 +5,8 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
+
+
 }
 
 h1 {
@@ -14,22 +16,23 @@ h1 {
     line-height: 1.5;
     font-weight: 900;
 }
-h2{
-    font-family: "Montserrat",sans-serif;
+
+h2 {
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 1.5;
 }
 
 h3 {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
 
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 p {
@@ -67,10 +70,27 @@ p {
 
 /*Title Image*/
 
+
 .title-image {
     transform: rotate(25deg);
-    width: 60%;
+    width: 300px;
+    /*width: 60%;*/
+    position: absolute;
+    right: 20%;
+
 }
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
 
 /*Features*/
 .icon {
@@ -78,9 +98,11 @@ p {
     color: #ef8172;
 
 }
-.icon:hover{
+
+.icon:hover {
     color: #ff4c68;
 }
+
 /*.fa-3x{         !*overwrite fontawesome class *!*/
 /*    color:#ef8172 ;*/
 /*}*/
@@ -89,56 +111,65 @@ p {
 /*}*/
 
 
-.feature-box{
+.feature-box {
     text-align: center;
     padding: 4.5%;
     /*margin:0 0 50px 0;*/
 
 
 }
-#features{
-    padding:7% 15%;
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    /*z-index: 1;*/
+    position: relative;
+
 }
 
 /*Testiomanials Sections*/
-.carousel-item{
+.carousel-item {
     padding: 7% 15%;
 }
-#testimonials{
+
+#testimonials {
 
     text-align: center;
     background-color: #ef8172;
-    color:#fff;
+    color: #fff;
 }
-.testimonial-image{
+
+.testimonial-image {
     width: 10%;
-    border-radius:100% ;
+    border-radius: 100%;
     margin: 20px;
 }
 
 /*Press Section*/
-#press{
+#press {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
-.press-logo{
-  width: 15%;
-  margin:20px 20px 50px;
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
 
 /*Pricing Section*/
-.pricing-column{
+.pricing-column {
     padding: 3% 2%;
 }
-#pricing{
+
+#pricing {
 
     /*padding: 0 10%;*/
     padding: 100px;
     text-align: center;
 }
 
-.mybtn{
+.mybtn {
     position: relative;
     top: auto;
     margin-top: 40px;

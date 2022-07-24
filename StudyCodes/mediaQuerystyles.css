@@ -1,0 +1,40 @@
+/*@media print {*/
+/*    !*Normalde işlem görmez yazdırdığında h1 rengini değiştirir*!*/
+/*    h1 {*/
+/*        color: red;*/
+/*    }*/
+/*}*/
+
+/*@media screen {*/
+/*    !*Normal işleyip renk değiştirir*!*/
+/*    h1 {*/
+/*        color: red;*/
+/*    }*/
+/*}*/
+
+h1 {
+    font-size: 30px;
+}
+
+@media (max-width: 900px)  {
+    /*900px genişlikten itibaren h1 red olur*/
+    h1 {
+        color: red;
+        font-size: 60px;
+    }
+}
+
+/*@media (max-width: 500px) {*/
+/*    500px genişlikten itibaren h1 deepskyblue olur*/
+/*    h1 {*/
+/*        color: deepskyblue;*/
+/*    }*/
+/*}*/
+
+
+@media (max-width: 800px) and (min-width: 550px){
+    /*550px ile 800px arası genişlikten itibaren h1 deepskyblue olur*/
+    h1 {
+        color: deepskyblue;
+    }
+}
