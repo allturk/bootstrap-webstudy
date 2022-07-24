@@ -84,7 +84,7 @@ p {
     #title {
         text-align: center;
     }
-    
+
     .title-image {
         position: static;
         transform: rotate(0);
@@ -174,4 +174,33 @@ p {
     top: auto;
     margin-top: 40px;
 
+}
+
+/*Call to Action*/
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+
+
+}
+.ctacl{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    /*padding: 0 10%;*/
+}
+/*Footer Section*/
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+
+
+}
+
+.social {
+   margin:20px 10px;
 }
